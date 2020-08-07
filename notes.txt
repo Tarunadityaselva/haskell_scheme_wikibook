@@ -1,4 +1,8 @@
 this is a notes used to learn haskell following the wikiboks tutorial.
 
 staring here:
-
+1)forget everything learned in python , c++ or java as haskell is completely different.
+2)GHC is a state-of-the-art, open source, compiler and interactive environment for the functional language Haskell. Highlights
+3)first install ghc using(curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh)
+4)haskell programs end with .hs file extension
+5) creating haskell_1.hs
