@@ -1,0 +1,4 @@
+this is a notes used to learn haskell following the wikiboks tutorial.
+
+staring here:
+
