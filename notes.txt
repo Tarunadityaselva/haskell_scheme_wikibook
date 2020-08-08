@@ -6,3 +6,9 @@ staring here:
 3)first install ghc using(curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh)
 4)haskell programs end with .hs file extension
 5) creating haskell_1.hs
+6)to run a program follow these steps:
+    debian:/home/jdtang/haskell_tutorial/code# ghc -o hello_you --make listing2.hs
+    debian:/home/jdtang/haskell_tutorial/code# ./hello_you Jonathan
+    Hello, Jonathan
+
+7)-o helps create a specifies the name of the executable you want to create, and then you just specify the name of the Haskell source file
