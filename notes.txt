@@ -12,3 +12,20 @@ staring here:
     Hello, Jonathan
 
 7)-o helps create a specifies the name of the executable you want to create, and then you just specify the name of the Haskell source file
+8)completed First steps from the article
+    *)module Main where
+      import System.Environment
+
+      include this the start of the program
+    *)main :: IO()
+    declaring main function
+    *)do 
+    starts the program
+    *)args <- getArgs
+    this get function like ex: function main(args)
+    *)args <- getLine
+    this reads the entire line ex: args = in.nextLine()
+    *)there are two ways to output into the console
+      1)putStrLn()
+      2)print()
+    *)to concatenate into the string use ++ 
