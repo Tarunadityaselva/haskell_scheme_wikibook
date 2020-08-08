@@ -4,8 +4,6 @@ import System.Environment
 main:: IO ()
 main = do
     putStrLn "Enter two lines"
-    do
-        line1  <- getLine
-        do
-            args   <- getLine
-            putStrLn ("Hello , "++ line1 ++ "and " ++ args)
+    line1 <- getLine
+    line2 <- getLine
+    putStrLn ("Hello, " ++ line1 ++ "and " ++ line2)
