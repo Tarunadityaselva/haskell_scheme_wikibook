@@ -6,4 +6,4 @@ main = do
     putStrLn "Enter two lines"
     line1 <- getLine
     line2 <- getLine
-    putStrLn ("Hello, " ++ line1 ++ "and " ++ line2)
+    putStrLn ("Hello, " ++ line1 ++ "and " ++ line2 ++ "bye")
